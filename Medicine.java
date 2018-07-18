@@ -38,6 +38,7 @@ public class Medicine {
 			if (!match) {
 				System.out.println("<NONE>");
 			}
+			read.close();
 		}
 		catch (FileNotFoundException f) {
 			System.out.println("File not found");
